@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Member.h</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Address::addr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Address::{ctor}</FUNCTION>
+    <DECORATED>??0Address@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Address::addr</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>EmulNet.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'EM::currbuffsize' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>EM::{ctor}</FUNCTION>
+    <DECORATED>??0EM@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>EM::currbuffsize</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>EmulNet.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'EM::nextid' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>EM::{ctor}</FUNCTION>
+    <DECORATED>??0EM@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>EM::nextid</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>EmulNet.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'EM::firsteltindex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>EM::{ctor}</FUNCTION>
+    <DECORATED>??0EM@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>EM::firsteltindex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>EmulNet.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'EM::buff' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>EM::{ctor}</FUNCTION>
+    <DECORATED>??0EM@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>EM::buff</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Application.cpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'mp1':  the readable size is 'par-&gt;EN_GPSZ*sizeof(MP1Node *)' bytes, but '8' bytes may be read.</DESCRIPTION>
+    <FUNCTION>Application::{ctor}</FUNCTION>
+    <DECORATED>??0Application@@QAE@PAD@Z</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;par-&gt;EN_GPSZ')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;par-&gt;EN_GPSZ')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'MP1Node::getMemberNode' (declared at c:\users\asad_\onedrive\illinois\2020\cloud computing concepts\mp1\mp1node.h:62)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'mp1', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Application.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'mp1':  the writable size is 'par-&gt;EN_GPSZ*sizeof(MP1Node *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>Application::{ctor}</FUNCTION>
+    <DECORATED>??0Application@@QAE@PAD@Z</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;par-&gt;EN_GPSZ')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;par-&gt;EN_GPSZ')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>Application.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'mp1', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Application.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Application::JOINADDR' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Application::{ctor}</FUNCTION>
+    <DECORATED>??0Application@@QAE@PAD@Z</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Application::JOINADDR</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

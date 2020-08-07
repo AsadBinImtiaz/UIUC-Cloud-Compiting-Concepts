@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Member.h</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Address::addr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Address::{ctor}</FUNCTION>
+    <DECORATED>??0Address@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Address::addr</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>EmulNet.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'EM::currbuffsize' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>EM::{ctor}</FUNCTION>
+    <DECORATED>??0EM@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>EM::currbuffsize</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>EmulNet.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'EM::nextid' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>EM::{ctor}</FUNCTION>
+    <DECORATED>??0EM@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>EM::nextid</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>EmulNet.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'EM::firsteltindex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>EM::{ctor}</FUNCTION>
+    <DECORATED>??0EM@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>EM::firsteltindex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>EmulNet.h</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'EM::buff' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>EM::{ctor}</FUNCTION>
+    <DECORATED>??0EM@@QAE@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>EM::buff</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>MP1Node.cpp</FILENAME>
+      <LINE>140</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'msg'. </DESCRIPTION>
+    <FUNCTION>MP1Node::introduceSelfToGroup</FUNCTION>
+    <DECORATED>?introduceSelfToGroup@MP1Node@@QAEHPAVAddress@@@Z</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>MP1Node.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>MP1Node.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>MP1Node.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>MP1Node.cpp</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>MP1Node.cpp</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'msg' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+        <FILENAME>MP1Node.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'msg' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>MP1Node.cpp</FILENAME>
+      <LINE>140</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'MsgTypes' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>MP1Node::introduceSelfToGroup</FUNCTION>
+    <DECORATED>?introduceSelfToGroup@MP1Node@@QAEHPAVAddress@@@Z</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

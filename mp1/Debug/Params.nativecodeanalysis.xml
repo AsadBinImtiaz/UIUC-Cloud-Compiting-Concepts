@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Member.h</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Address::addr' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Address::{ctor}</FUNCTION>
+    <DECORATED>??0Address@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Address::addr</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Params::MSG_DROP_PROB' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Params::{ctor}</FUNCTION>
+    <DECORATED>??0Params@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Params::MSG_DROP_PROB</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Params::dropmsg' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Params::{ctor}</FUNCTION>
+    <DECORATED>??0Params@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Params::dropmsg</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Params::MAX_NNB' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Params::{ctor}</FUNCTION>
+    <DECORATED>??0Params@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Params::MAX_NNB</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Params::SINGLE_FAILURE' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Params::{ctor}</FUNCTION>
+    <DECORATED>??0Params@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Params::SINGLE_FAILURE</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Params::STEP_RATE' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Params::{ctor}</FUNCTION>
+    <DECORATED>??0Params@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Params::STEP_RATE</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Params::EN_GPSZ' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Params::{ctor}</FUNCTION>
+    <DECORATED>??0Params@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Params::EN_GPSZ</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Params::MAX_MSG_SIZE' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Params::{ctor}</FUNCTION>
+    <DECORATED>??0Params@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Params::MAX_MSG_SIZE</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Params::DROP_MSG' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Params::{ctor}</FUNCTION>
+    <DECORATED>??0Params@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Params::DROP_MSG</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Params::globaltime' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Params::{ctor}</FUNCTION>
+    <DECORATED>??0Params@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Params::globaltime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Params::allNodesJoined' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Params::{ctor}</FUNCTION>
+    <DECORATED>??0Params@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Params::allNodesJoined</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
+    <FUNCTION>Params::setparams</FUNCTION>
+    <DECORATED>?setparams@Params@@QAEXPAD@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
+    <FUNCTION>Params::setparams</FUNCTION>
+    <DECORATED>?setparams@Params@@QAEXPAD@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
+    <FUNCTION>Params::setparams</FUNCTION>
+    <DECORATED>?setparams@Params@@QAEXPAD@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\asad_\OneDrive\Illinois\2020\Cloud Computing Concepts\mp1\</FILEPATH>
+      <FILENAME>Params.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
+    <FUNCTION>Params::setparams</FUNCTION>
+    <DECORATED>?setparams@Params@@QAEXPAD@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
